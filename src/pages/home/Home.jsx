@@ -1,11 +1,10 @@
-import Header from '../../components/navbar/header/Header'
+import MainHeader from '../../components/mainHeader/MainHeader'
 import './home.css'
 
 const home = () => {
   return (
     <>
-    <Header/>
-    Home
+    <MainHeader/>
     </>
   )
 }
