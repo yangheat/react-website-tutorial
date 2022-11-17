@@ -8,6 +8,7 @@ const home = () => {
     <>
     <MainHeader/>
     <Programs/>
+    <Values/>
     </>
   )
 }

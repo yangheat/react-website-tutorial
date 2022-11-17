@@ -76,3 +76,40 @@
     background: var(--color-secondary);
     color: var(--color-gray-600)
 }
+
+/* ====== VALUES ====== */
+.values-container {
+    display: grid;
+    grid-template-columns: 38% 50%;
+    gap: 12%;
+}
+
+.values-image {
+    filter: satirate(0.25);
+    transition: var(--transition);
+}
+
+.values-image:hover {
+    filter: saturate(1)
+}
+
+.values-right > p {
+    margin: 1.5rem 0 5rem;
+}
+
+.values-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.4rem 2.4rem;
+}
+
+.card.values-value {
+    padding-top: 3.5rem;
+    text-align: left;
+    position: relative;
+}
+
+.card.values-value span {
+    position: absolute;
+    top: -1.5rem;
+}
