@@ -1,3 +1,4 @@
+import FAQs from '../../components/FAQ/FAQs'
 import MainHeader from '../../components/mainHeader/MainHeader'
 import Programs from '../../components/programs/Programs'
 import Values from '../../components/Values'
@@ -9,6 +10,7 @@ const home = () => {
     <MainHeader/>
     <Programs/>
     <Values/>
+    <FAQs/>
     </>
   )
 }
