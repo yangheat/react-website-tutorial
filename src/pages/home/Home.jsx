@@ -1,6 +1,7 @@
-import FAQs from '../../components/FAQ/FAQs'
-import MainHeader from '../../components/mainHeader/MainHeader'
-import Programs from '../../components/programs/Programs'
+import FAQs from '../../components/faq/FAQs'
+import MainHeader from '../../components/header/MainHeader'
+import Programs from '../../components/Programs'
+import Testimonials from '../../components/Testimonials'
 import Values from '../../components/Values'
 import './home.css'
 
