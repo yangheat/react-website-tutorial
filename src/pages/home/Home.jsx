@@ -12,6 +12,7 @@ const home = () => {
     <Programs/>
     <Values/>
     <FAQs/>
+    <Testimonials/>
     </>
   )
 }

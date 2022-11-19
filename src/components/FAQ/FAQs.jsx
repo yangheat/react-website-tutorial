@@ -1,4 +1,4 @@
-import SectionHead from "../SectionHead"
+import SectionHead from "../header/SectionHead"
 import {FaQuestion} from 'react-icons/fa'
 import { faqs } from "../../data"
 import FAQ from "./FAQ"
