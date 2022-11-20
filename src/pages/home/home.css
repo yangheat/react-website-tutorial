@@ -269,3 +269,125 @@ footer {
     border-top: 2px solid var(--color-primary-variant);
     margin-top: 5rem;
 }
+
+/* MEFIA QUERIES (medum screens) */
+@media screen and (max-width: 1024px) {
+    /* MAIN HEADER */
+    .main-header {
+        height: fit-content;
+        padding: 12rem 0;
+    }
+
+    .main-header-container {
+        gap: 0;
+    }
+
+    .main-header-circle {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    /* PROGRAMS */
+    .programs-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* VALUES */
+    .values-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .values-wrapper {
+        gap: 4rem 3rem;
+    }
+
+    .values-image {
+        display: none;
+    }
+
+    /* FAQs */
+    .faqs-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    /* TESTIMONIALS */
+    .testimonials {
+        width: 75%;
+    }
+
+    /* FOOTER */
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+/* MEDIA QUERIES (medium screens) */
+@media screen and (max-width: 600px) {
+    
+    .main-header {
+        margin-top: 0;
+        padding: 12rem 0 0;
+        height: 100vh;
+    }
+
+    .main-header-image, .main-header-circle {
+        display: none;
+    }
+
+    .main-header-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* PROGRAMS */
+    .programs-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .programs-program {
+        width: 84%;
+        margin: 0 auto
+    }
+
+    /* VALUES */
+    .values-wrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .card.values-value {
+        width: 84%;
+        margin-inline: auto;
+    }
+
+    /* FAQs */
+    .faqs-wrapper {
+        gap: 1rem;
+        margin-top:3rem;
+    }
+
+    /* TESTIMINIALS */
+    .testimonials {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer {
+        margin-top: 7rem;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .footer-container article {
+        align-items: center;
+    }
+
+    .footer-container article p {
+        text-align: center;
+    }
+}
